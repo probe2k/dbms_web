@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	min-height: 100vh;
+	width: 100%;
+	background: #c8e8e9;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	width: 80%;
+	background: #fff;
+	border-radius: 6px;
+	padding: 20px 60px 40px 40px;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container .content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.container .content .left-side {
+	width: 40%;
+	height: 100%;
+	position: relative;
+}
+
+.content .left-side::before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 2px;
+	background: #afafb6;
+	right: -15px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.content .left-side .details i {
+	font-size: 30px;
+	color: #555555;
+	margin: 20px 0px;
+}
+
+.container .content .right-side {
+	width: 60%;
+	margin-left: 75px;
+}
+
+.content .left-side .details {
+	margin: 14px;
+	text-align: center;
+}
+
+.content .left-side .details .topic {
+	font-size: 18px;
+	font-weight: 500;
+}

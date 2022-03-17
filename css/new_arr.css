@@ -1,0 +1,147 @@
+*{
+    margin=0;
+    padding:0;
+    box-sizing:border-box;
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2em;    
+}
+.logo {
+    margin: auto;
+    flex: none;
+    display: inline-block;
+}
+
+input[type=text] {
+    width: 65px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: white;
+    padding:3px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+input[type=text]:focus {
+    width: 80%;
+  }
+
+.logo-img {
+    width: 50%;
+    padding-bottom: 0.5rem;
+}
+nav{
+    flex: none;
+    margin: auto;
+    text-align: center;
+}
+nav ul{
+    display:inline-block;
+    list-style-type:none;
+   
+}
+nav ul li{
+    display:inline-block;
+    margin-right:8px;
+    margin-left: 8px;
+}
+a{
+    text-decoration:none;
+    
+}
+
+p{
+    color:#555;
+}
+.new_arr {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+hr {
+    width: 70%;
+    height: 2px;
+    margin: auto;
+    background-color: black;
+    opacity: 40%;
+}
+
+.product_list {
+    padding: 1em;
+    margin: 20px 0px;
+    background-color: #dfe6e9;
+}
+.product_list .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0px 10px 5px #b2beb2;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.card .title {
+    font-size: 13px;
+    font-weight: bold;
+}
+.card .price {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+}
+.add_to_cart_button {
+    background-color: #dfe6e9;
+    border-radius: 100px;
+    box-shadow: 0px 5px 5px #b2beb2;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+   font-family: 'Nunito', sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.add_to_cart_button:hover {
+    box-shadow: 0px 5px 5px #b2beb2;
+    transform: scale(1.05);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.heart_button {
+    background: transparent;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    padding:5px 10px;
+    color: grey;
+}
+
+.heart_button i:hover {
+    cursor: pointer;
+}

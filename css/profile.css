@@ -1,0 +1,133 @@
+*{
+    margin=0;
+    padding:0;
+    box-sizing:border-box;
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.logo {
+    margin: auto;
+    flex: none;
+    display: inline-block;
+}
+
+.logo-img {
+    width: 50%;
+    padding-bottom: 0.5rem;
+}
+nav{
+    flex: none;
+    margin: auto;
+    text-align: center;
+}
+nav ul{
+    display:inline-block;
+    list-style-type:none;
+   
+}
+nav ul li{
+    display:inline-block;
+    margin-right:20px;
+}
+a{
+    text-decoration:none;
+    
+}
+
+p{
+    color:#555;
+}
+.c1 {
+    padding: 10px 0px;
+}
+/* Style the tab */
+.tab {
+  float: left;
+  background-color: #f1f1f1;
+  width: 20%;
+  height: 100vh;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 15px 15px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+    font-size: 18px;
+     font-family: 'Nunito', sans-serif;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+    
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  width: 80%;
+  border-left: none;
+  height: 100vh;
+     font-family: 'Nunito', sans-serif;
+}
+
+.filters {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 15px;
+     font-family: 'Nunito', sans-serif;
+}
+
+.tab p{
+    font-family: 'Nunito', sans-serif;
+    }
+.tablinks{
+    border-radius: 10px;
+}
+
+center {
+    padding: 30px 0px;
+}
+
+center img {
+    border-radius: 20px;
+}
+
+.logout_btn {
+    background-color: #dfe6e9;
+    border-radius: 100px;
+    box-shadow: 0px 5px 5px #b2beb2;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
